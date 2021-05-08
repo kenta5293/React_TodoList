@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.palette {
+  display: flex;
+  justify-content: center;
+
+  .color {
+    width: 1.8rem;
+    height: 1.8rem;
+    opacity: 0.5;
+    transition: 0.2s;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &.active, &:active {
+      opacity: 1;
+    }
+
+    &+.color {
+      margin-left: 1.2rem;
+    }
+  }
+}
