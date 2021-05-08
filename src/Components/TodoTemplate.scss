@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+$main-color: #f6e25d;
+$sub-color: #999a9c;
+
+.todo-list-template {
+  margin: 6rem auto;
+  min-width: 480px;
+  box-shadow: 0 0.8rem 1rem hsla(0, 0%, 47%, 0.1);
+  border-radius: 0.6rem;
+  overflow: hidden;
+
+  .title {
+    padding: 2rem;
+    font-size: 2.4rem;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: $main-color;
+    user-select: none;
+  }
+
+  .form-wrapper {
+    padding: 2rem;
+    border-bottom: 1px solid #f1f3f5;
+  }
+
+  .todos-wrapper {
+    font-size: 1.2rem;
+  }
+}
